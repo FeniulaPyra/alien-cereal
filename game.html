@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	</head>
+	<body>
+		<style>
+			#goBackHomeButton {
+				position: fixed; 
+				bottom: 1.5rem; 
+				left: 1rem;
+				width: 0;
+				padding: .5rem;
+				text-decoration: none;
+				font-weight: bolder;
+				transition: left .5s;
+			}
+			#goBackHomeButton p {
+				background: #2f0a28; 
+				color: #cadbc0;
+				border-radius: 100%;
+				width: 1rem;
+				height: 1rem;
+				text-align: center;
+				box-shadow: -4px 4px 4px #000a;
+				padding: 1rem;
+				margin: 0;
+				transition: box-shadow .5s;
+			}
+			#goBackHomeButton:hover {
+				left: .5rem;
+			}
+			
+			#goBackHomeButton:hover p {
+				box-shadow: 0 0 8px gold;
+			}
+		</style>
+		<a id="goBackHomeButton" href="/lep2738/home/"><p>&lt;</p></a>
+		
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+		<script src="js/pathseg.js"></script>
+		<script src="js/decomp.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.js"></script>
+		<script src="js/classes.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
